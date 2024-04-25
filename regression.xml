@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Regression">
+    <test name="Regression">
+        <classes>
+            <class name="AssertionsPractice.AssertionsPractice"/>
+            <class name="HRM.Login.LoginPageTest"/>
+            <class name="HRM.JobTitles.JobTitlesPageTest"/>
+        </classes>
+    </test>
+</suite>

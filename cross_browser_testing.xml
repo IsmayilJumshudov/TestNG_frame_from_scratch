@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Cross Browser TestSuite" parallel="tests" thread-count="2">
+    <test name="Test1">
+        <classes>
+            <parameter name="browser" value="chrome"/>
+            <class name="HRM.Login.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <parameter name="browser" value="edge"/>
+            <class name="HRM.JobTitles.JobTitlesPageTest"/>
+        </classes>
+    </test>
+</suite>
